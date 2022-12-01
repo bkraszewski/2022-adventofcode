@@ -5,7 +5,7 @@ import 'package:collection/collection.dart';
 import 'input_reader.dart';
 
 void day1PartOne() async {
-  final lines = await readLines('inputs/1_calories.txt').toList();
+  final lines = await readLines('./inputs/1_calories.txt');
 
   var maximum = 0;
   var current = 0;
@@ -34,7 +34,7 @@ void day1PartOne() async {
 }
 
 void day1PartTwo() async {
-  final lines = await readLines('inputs/1_calories.txt').toList();
+  final lines = await readLines('./inputs/1_calories.txt');
 
   var current = 0;
   final queue = PriorityQueue<int>((p1, p2) => p2.compareTo(p1));
