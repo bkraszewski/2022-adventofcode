@@ -1,7 +1,4 @@
-import 'package:coding_calendar/3rd_dec.dart';
-
-import '1st_dec.dart';
-import '2nd_dec.dart';
+import 'days.dart';
 
 void main(List<String> arguments) {
   //1st dec
@@ -13,6 +10,9 @@ void main(List<String> arguments) {
   // day2PartTwo();
 
   //3rd dec
-  day3PartOne();
-  day3PartTwo();
+  // day3PartOne();
+  // day3PartTwo();
+
+  day4partOne();
+  day4partTwo();
 }
