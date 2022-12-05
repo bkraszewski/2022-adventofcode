@@ -13,6 +13,6 @@ void main(List<String> arguments) {
   // day3PartOne();
   // day3PartTwo();
 
-  day4partOne();
-  day4partTwo();
+  day5partOne();
+  day5partTwo();
 }
